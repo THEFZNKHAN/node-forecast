@@ -12,6 +12,11 @@ const menus = {
   
       --location, -l ..... the location to use
       `,
+  forecast: `
+        node-forecast forecast <options>
+
+        --location, -l ..... the location to use
+        `,
 };
 
 module.exports = (args) => {
