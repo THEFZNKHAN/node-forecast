@@ -1,0 +1,24 @@
+{
+  "name": "node-forecast",
+  "version": "1.0.0",
+  "description": "A CLI based whether forecast app using node.js",
+  "homepage": "https://github.com/THEFZNKHAN/node-forecast",
+  "main": "index.js",
+  "bin": {
+    "node-forecast": "bin/node-forecast"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "cli",
+    "forecast",
+    "whether"
+  ],
+  "author": "Md Faizan Khan <fkhan20040@gmail.com> (https://github.com/THEFZNKHAN)",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
